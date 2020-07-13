@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3b58075-0b25-453c-95ad-1023d9ad70af" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="project" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="project" type="f1a62948:ProjectNode" />
+                <item name="project-build" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="project" type="f1a62948:ProjectNode" />
+                <item name="project-build" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bR8p6MyRPw0Gu41ShL4NfVyIfw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.PrestacopLoad">
+    <configuration name="Prestacop" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="fr.esgi.training.spark.streaming.Prestacop" />
+      <module name="training-spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.esgi.training.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestacopLoad" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fr.esgi.training.spark.prestacop.PrestacopLoad" />
+      <module name="project_8720" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.esgi.training.spark.prestacop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestacopStreaming" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fr.esgi.training.spark.prestacop.PrestacopStreaming" />
+      <module name="project_8720" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.esgi.training.spark.prestacop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingNames" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="fr.esgi.training.spark.streaming.StreamingNames" />
+      <module name="training-spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.esgi.training.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="traslate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="fr.esgi.training.spark.traslate" />
+      <module name="training-spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.esgi.training.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrestacopLoad" />
+        <item itemvalue="Application.Prestacop" />
+        <item itemvalue="Application.traslate" />
+        <item itemvalue="Application.StreamingNames" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="project" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="project_8720 [file:/C:/Users/49135/Documents/m1/spark/project/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="project_8720-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1594597816043" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3b58075-0b25-453c-95ad-1023d9ad70af" name="Default Changelist" comment="" />
+      <created>1588583727144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588583727144</updated>
+      <workItem from="1588583733453" duration="39000" />
+      <workItem from="1588838805765" duration="7771000" />
+      <workItem from="1589152053330" duration="20429000" />
+      <workItem from="1590182852349" duration="6927000" />
+      <workItem from="1592387425492" duration="405000" />
+      <workItem from="1593424198020" duration="1328000" />
+      <workItem from="1593504186098" duration="2182000" />
+      <workItem from="1593678813821" duration="2531000" />
+      <workItem from="1593897226690" duration="18605000" />
+      <workItem from="1594125135886" duration="5799000" />
+      <workItem from="1594589659801" duration="5653000" />
+      <workItem from="1594595781478" duration="244000" />
+      <workItem from="1594596068815" duration="798000" />
+      <workItem from="1594597662130" duration="46000" />
+      <workItem from="1594597738137" duration="117000" />
+      <workItem from="1594597880742" duration="732000" />
+      <workItem from="1594598619030" duration="24000" />
+      <workItem from="1594598657117" duration="44000" />
+      <workItem from="1594631669039" duration="1110000" />
+      <workItem from="1594632821030" duration="596000" />
+      <workItem from="1594634132088" duration="8822000" />
+      <workItem from="1594655218798" duration="5410000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1594598129276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594598129276" />
+    <state x="467" y="69" width="621" height="686" key="#PrestacopLoad" timestamp="1594634887653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="69" width="621" height="686" key="#PrestacopLoad/0.0.1536.824@0.0.1536.824" timestamp="1594634887653" />
+    <state x="467" y="69" key="#PrestacopStreaming" timestamp="1594631998608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="69" key="#PrestacopStreaming/0.0.1536.824@0.0.1536.824" timestamp="1594631998608" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594635617539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594635617539" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594597608334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594597608334" />
+    <state x="513" y="327" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1594596146244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="327" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.824@0.0.1536.824" timestamp="1594596146244" />
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588848737570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1588848737570" />
+    <state x="549" y="178" key="FileChooserDialogImpl" timestamp="1594633411529">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594633411529" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588583770662" />
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1594655997793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594655997793" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1594655997793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594655997793" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1594655997793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594655997793" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1594655997793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594655997793" />
+    <state x="542" y="278" key="NewModule_or_Project.wizard" timestamp="1594596099066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="278" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1594596099066" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1594631822944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594631822944" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594655217731">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594655217731" />
+    <state x="178" y="136" key="new project wizard" timestamp="1592387537841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="136" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1592387537841" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1594631732985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594631732985" />
+  </component>
+</project>

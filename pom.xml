@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.esgi.training</groupId>
+    <artifactId>training-spark</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <scala.version>2.11.8</scala.version>
+        <scala.dep.version>2.11</scala.dep.version>
+        <scalatest.version>3.0.0-M12</scalatest.version>
+        <scala-maven-plugin.version>3.2.0</scala-maven-plugin.version>
+        <spark.version>2.4.4</spark.version>
+
+        <property>
+            <name>fs.s3a.aws.credentials.provider</name>
+            <value>org.apache.hadoop.fs.s3a.TemporaryAWSCredentialsProvider</value>
+        </property>
+
+        <property>
+            <name>fs.s3a.access.key</name>
+            <value>ASIAUG3H43Y4DMMCTDOZ</value>
+        </property>
+
+        <property>
+            <name>fs.s3a.secret.key</name>
+            <value>ax5kEKJL9xgR98F/0HiRUMZzAbODpO5c68azGKFi</value>
+        </property>
+
+        <property>
+            <name>fs.s3a.session.token</name>
+            <value>FwoGZXIvYXdzEE8aDEwpJnT5FWV8rYn1qSK9Afwop99eMWe7xROD2Wdq52Av06vfDVHgqo3co9PWWjurEJgYcOmNEbDnc7jWhMzRFYQJu3S8V5mmCpIR0/Wpm8sr/bmbkdMeqovkIcLTLTTCzq9bEp1/ZXJEQTI8r7Hkxm5dr6r0e6l3QeGXcInr6w8ZFp+6xv0ZAY3o5bOJlDRJnvqAp0qAKtGvebYY1Ki+YRemXx3nzpc2i7pnlUeAPN49b3BI3tdg/5MSzmFZdvv5hiRIAile8GSwMWv67Cj8+ZH4BTIth0fJ7MPMRPpseVJbZDoxysPAKVPn6JIp0uScsfldrOo/B4uX02btvExfZkGF</value>
+        </property>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_${scala.dep.version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_${scala.dep.version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_${scala.dep.version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-aws</artifactId>
+            <version>2.7.3</version>
+            <exclusions>
+                <exclusion>  <!-- declare the exclusion here -->
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-core</artifactId>
+                </exclusion>
+                <exclusion>  <!-- declare the exclusion here -->
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-databind</artifactId>
+                </exclusion>
+                <exclusion>  <!-- declare the exclusion here -->
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-annotations</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>2.7.3</version>
+        </dependency>
+    </dependencies>
+
+</project>
